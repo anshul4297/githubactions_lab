@@ -13,6 +13,6 @@ jobs:
       - name: install dependencies
         uses: npm ci
       - name: run test
-        uses: npm test
+        run: npm test
         
 
